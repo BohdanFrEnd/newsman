@@ -1,0 +1,15 @@
+.main-title {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 45px;
+    span {
+        color: #004FEC;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-title {
+        font-size: 30px;
+        margin-bottom: 28px;
+    }
+}

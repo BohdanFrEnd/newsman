@@ -1,0 +1,107 @@
+.contact-inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+
+    .contact-info__phone {
+        font-weight: 400;
+        font-size: 50px;
+        color: #004FEC;
+        margin-bottom: 50px;
+        display: block;
+    }
+
+    .contact-info__name {
+        font-size: 20px;
+        padding-left: 15px;
+        border-left: 2px solid #004FEC;
+        margin-bottom: 25px;
+    }
+
+    .contact-info__mail {
+        font-size: 18px;
+        display: block;
+        margin-bottom: 52px;
+    }
+
+    .contact-info__js {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .contact-photo {
+        width: 540px;
+        height: 340px;
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .contact-inner {
+        .contact-info__phone {
+            font-size: 34px;
+            margin-bottom: 17px;
+        }
+
+        .contact-photo {
+            width: 380px;
+            height: 290px;
+        }
+
+        .contact-info__mail {
+            margin-bottom: 22px;
+            font-size: 17px;
+        }
+
+        .contact-info__js {
+            font-size: 17px;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .contact-inner{
+        .contact-info {
+            .contact-info__phone {
+                font-size: 19px;
+            }
+    
+            .contact-info__name {
+                font-size: 17px;
+                margin-bottom: 16px;
+            }
+    
+            .contact-info__js {
+                font-size: 17px;
+            }
+        }
+  
+        .contact-photo {
+            width: 335px;
+        }
+    }
+   
+}
+
+@media screen and (max-width: 575px) {
+    .contact-inner {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 20px;
+
+        .contact-photo {
+            width: 100%;
+            height: fit-content;
+            margin-bottom: 50px;
+        }
+
+        .contact-info__phone {
+            font-size: 27px !important;
+        }
+    }
+}

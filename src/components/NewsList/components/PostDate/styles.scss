@@ -1,0 +1,13 @@
+.news-item__date {
+    font-size: 17px;
+    color: rgba(51, 61, 81, 0.5);
+    span{
+        margin-left: 7px;
+        &:nth-child(1) {
+            font-size: 23px;
+            color: #333D51;
+            margin-right: 7px;
+            margin-left: 0px;
+        }
+    }
+}

@@ -1,0 +1,92 @@
+  .loader-prewiev {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .loader-prewiev__icon {
+        fill: #2d50e6;
+        width: 90px;
+        height: 90px;
+        margin-bottom: 20px;
+        animation: spin 3s cubic-bezier(0.65, 0.05, 0.36, 1) infinite;
+
+        @keyframes spin {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+    
+        .loader-prewiev__icon-cls-1 {
+            opacity: 0.9;
+          }
+        
+          .loader-prewiev__icon-cls-2 {
+            opacity: 0.85;
+          }
+        
+          .loader-prewiev__icon-cls-3 {
+            opacity: 0.95;
+          }
+        
+          .loader-prewiev__icon-cls-4 {
+            opacity: 0.1;
+          }
+        
+          .loader-prewiev__icon-cls-5 {
+            opacity: 0.2;
+          }
+        
+          .loader-prewiev__icon-cls-7 {
+            opacity: 0.8;
+          }
+        
+          .loader-prewiev__icon-cls-8 {
+            opacity: 0.35;
+          }
+        
+          .loader-prewiev__icon-cls-9 {
+            opacity: 0.5;
+          }
+        
+          .loader-prewiev__icon-cls-10 {
+            opacity: 0.55;
+          }
+        
+          .loader-prewiev__icon-cls-11 {
+            opacity: 0.45;
+          }
+        
+          .loader-prewiev__icon-cls-12 {
+            opacity: 0.4;
+          }
+        
+          .loader-prewiev__icon-cls-13 {
+            opacity: 0.65;
+          }
+        
+          .loader-prewiev__icon-cls-14 {
+            opacity: 0.7;
+          }
+        
+          .loader-prewiev__icon-cls-15 {
+            opacity: 0.75;
+          }
+        
+          .loader-prewiev__icon-cls-16 {
+            opacity: 0.6;
+          }
+    
+    }
+
+    .loader-prewiev__title {
+        font-size: 20px;
+    }
+    
+      
+  }
+  
+  
