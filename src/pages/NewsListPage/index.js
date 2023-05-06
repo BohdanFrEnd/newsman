@@ -51,7 +51,7 @@ const NewsLispPage = () => {
         <section className="all-news">
             <PageTitle 
                 pageTitle = {
-                    <h2 className="main-title">Keep the track Of <span>News</span></h2>
+                    <h2 className="main-title">Keep the track of <span>News</span></h2>
                 }
             />
             {resultFull === undefined ? <p>Change key</p> : (resultFull.length > 0 ? <NewsList list={resultFull.slice(0, more)}/> : <Loader /> )}
@@ -71,7 +71,7 @@ const NewsLispPage = () => {
 
             {   
                 resultFull && more < resultFull.length ? 
-                <button className="all-news__btn" onClick={() => setMore(more + 50)}>Show more</button> 
+                <button className="all-news__btn" onClick={() => setMore(more + 45)}>Show more</button> 
                 :
                 resultFull.length > 0 && 
                 <button className="all-news__btn" onClick={() => setMore((more - more) + 15)}>Show less</button>

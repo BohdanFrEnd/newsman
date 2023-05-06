@@ -1,3 +1,3 @@
-const routeMain = (id = ":id") => `/news-detail/${id}`;
+const routeMain = (id = ":id") => `/newsman/news-list/${id}`;
 
 export default routeMain;

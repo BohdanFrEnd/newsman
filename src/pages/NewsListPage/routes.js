@@ -1,3 +1,3 @@
-const routeMain = () => '/news-list';
+const routeMain = () => '/newsman/news-list';
 
 export default routeMain;
