@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/newsman/static/css/main.b8a737fa.css",
+    "main.js": "/newsman/static/js/main.257de535.js",
+    "static/media/rctangle_9.jpg": "/newsman/static/media/rctangle_9.f0678f00e06d94f80c2c.jpg",
+    "index.html": "/newsman/index.html",
+    "main.b8a737fa.css.map": "/newsman/static/css/main.b8a737fa.css.map",
+    "main.257de535.js.map": "/newsman/static/js/main.257de535.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8a737fa.css",
+    "static/js/main.257de535.js"
+  ]
+}
