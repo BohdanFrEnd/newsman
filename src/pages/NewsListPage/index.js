@@ -51,7 +51,7 @@ const NewsLispPage = () => {
         <section className="all-news">
             <PageTitle 
                 pageTitle = {
-                    <h2 className="main-title">Keep The Track Of <span>News</span></h2>
+                    <h2 className="main-title">Keep the track Of <span>News</span></h2>
                 }
             />
             {resultFull === undefined ? <p>Change key</p> : (resultFull.length > 0 ? <NewsList list={resultFull.slice(0, more)}/> : <Loader /> )}

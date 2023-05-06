@@ -35,7 +35,7 @@ const MainPage = () => {
         <section className="main-page-section">
             <PageTitle 
                 pageTitle = {
-                    <h2 className="main-title">Always Fresh <span>News</span></h2>
+                    <h2 className="main-title">Always fresh <span>News</span></h2>
                 }
             />
             {news === undefined ?  <div>Change a key...</div> : ( news.length > 0 ? <NewsList list={news.slice(0,6)} /> : <Loader /> )}
